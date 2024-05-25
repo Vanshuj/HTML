@@ -1,0 +1,35 @@
+body {
+    background-image: url('imges/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+
+  header {
+    background-color: rgb(240, 171, 185);
+    color: #fff;
+    padding: 20px;
+}
+
+    nav {
+        float: right;
+      }
+      header nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    header nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    header nav ul li a {
+        color: #fff;
+        text-decoration: none;
+    }      

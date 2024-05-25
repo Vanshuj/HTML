@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color:rgb(214, 172, 195) */
+}
+
+body {
+    background-image: url('imges/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+header {
+    background-color:rgb(240, 171, 185);
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    float: right;
+  }
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.side-by-side {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-by-side li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between list items */
+}
+
+
+ /* #products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+} */
+
+#section1 {
+    text-align: center; /* Center-align the heading */
+}
+
+#section2 {
+    text-align: center; /* Center-align the heading */
+}
+
+#section3 {
+    text-align: center; /* Center-align the heading */
+}
+
+#section4 {
+    text-align: center; /* Center-align the heading */
+}
+
+.product {
+    display: inline-block; /* Display products side by side */
+    margin: 80px; /* Add spacing between products */
+    text-align: center; /* Center-align product content */
+    vertical-align: top; /* Align products to the top */
+    width: 200px; /* Set a fixed width for each product */
+}
+
+/* .product {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 30px;
+    text-align: center;
+} */
+
+
+
+.product img {
+    width: 250px;
+    height: 250px;
+}
+
+.product h3 {
+    margin-top: 10px;
+}
+
+.product p {
+    font-weight: bold;
+    color: #555;
+}
+
+.product button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.product button:hover {
+    background-color: #45a049;
+}
